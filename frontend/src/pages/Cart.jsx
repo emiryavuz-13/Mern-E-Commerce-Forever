@@ -1,4 +1,4 @@
-import React, { use, useContext, useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { ShopContext } from "../context/ShopContext";
 import Title from "../components/Title";
 import { assets } from "../assets/frontend_assets/assets";
@@ -45,7 +45,7 @@ const Cart = () => {
                 <img
                   src={productData.image[0]}
                   alt=""
-                  className="w-24 w-16 sm:w-20"
+                  className="w-16 sm:w-20"
                 />
                 <div>
                   <p className="text-xs sm:text-lg font-medium">
